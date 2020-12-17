@@ -185,7 +185,7 @@ public abstract class Command
      * @param  event
      *         The CommandEvent that triggered this Command
      */
-    public final void run(CommandEvent event)
+    public void run(CommandEvent event)
     {
         // child check
         if(!event.getArgs().isEmpty())
